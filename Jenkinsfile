@@ -5,8 +5,8 @@ pipeline {
       steps {
       sh 'echo "HELLO WORLD"'
       sh '''
-        echo "This will list current dir content from latest"
-        ls -lh
+        echo "Welcome to B2"
+        uname -a
         '''
       }
     }
